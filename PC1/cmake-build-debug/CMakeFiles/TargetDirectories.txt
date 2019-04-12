@@ -1,3 +1,3 @@
-/home/ruben/CLionProjects/PC1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/ruben/CLionProjects/PC1/cmake-build-debug/CMakeFiles/PC1.dir
-/home/ruben/CLionProjects/PC1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/utec/Renato Bacigalupo/practica-calificada-1-Renato01011/PC1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/utec/Renato Bacigalupo/practica-calificada-1-Renato01011/PC1/cmake-build-debug/CMakeFiles/PC1.dir
+/home/utec/Renato Bacigalupo/practica-calificada-1-Renato01011/PC1/cmake-build-debug/CMakeFiles/edit_cache.dir

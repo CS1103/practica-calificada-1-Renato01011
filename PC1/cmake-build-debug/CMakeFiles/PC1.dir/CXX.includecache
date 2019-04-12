@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/utec/Renato Bacigalupo/practica-calificada-1-Renato01011/PC1/TwoLinkedList.cpp
+fstream
+-
+iostream
+-
+sstream
+-
+string
+-
+TwoLinkedList.h
+/home/utec/Renato Bacigalupo/practica-calificada-1-Renato01011/PC1/TwoLinkedList.h
+
+/home/utec/Renato Bacigalupo/practica-calificada-1-Renato01011/PC1/TwoLinkedList.h
+string
+-
+
+/home/utec/Renato Bacigalupo/practica-calificada-1-Renato01011/PC1/main.cpp
+iostream
+-
+string
+-
+fstream
+-
+vector
+-
+cassert
+-
+TwoLinkedList.h
+/home/utec/Renato Bacigalupo/practica-calificada-1-Renato01011/PC1/TwoLinkedList.h
+

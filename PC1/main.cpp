@@ -33,13 +33,13 @@ int main() {
     assert(tll.getlist(0) == string());
 
     auto resul1t1 = tll.merge(66);
-    assert(result1 == string("Operación Exitosa"));
+    assert(resul1t1 == string("Operación Exitosa"));
 
 
     // Valores unidos
-    tll.pushback1(77);
-    tll.pushback2(88);
-    tll.pushback1(99);
+    tll.push_back1(77);
+    tll.push_back2(88);
+    tll.push_back1(99);
     auto result2 = tll.merge(100);
     assert(result2 == string("Operación duplicada"));
     assert(tll.getlist(0) == string("66 77 88 99 "));
@@ -65,6 +65,7 @@ int main() {
 
     for (int i = 0; i < test.size(); i++)
         assert(test[i] == output[i]);
+
 
 
     return 0;
