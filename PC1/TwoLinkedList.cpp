@@ -160,8 +160,7 @@ namespace UTEC {
     }
 
     void TwoLinkedList::load(std::string file_name) {
-        //stoi() No funciona, pero implementación está correcta
-        /*
+
         std::fstream Archivo;
         Archivo.open(file_name);
         std::string Value_first_list;
@@ -177,32 +176,34 @@ namespace UTEC {
         getline(Archivo, Value_second_list, '\n');
         getline(Archivo, Value_third_list, '\n');
 
+
         First_list.str(Value_first_list);
         Second_list.str(Value_second_list);
         Third_list.str(Value_third_list);
 
         while(First_list.good()) {
             getline(First_list, WordTemp, ',');
-            intTemp = stoi(WordTemp);
+            intTemp = atoi(WordTemp.c_str());
+            std::cout << intTemp;
             push_back1(intTemp);
         }
 
         while(Second_list.good()) {
             getline(Second_list, WordTemp, ',');
-            intTemp = stoi(WordTemp);
+            intTemp = atoi(WordTemp.c_str());
             push_back2(intTemp);
         }
 
         getline(Third_list, WordTemp, ',');
-        intTemp = stoi(WordTemp);
+        intTemp = atoi(WordTemp.c_str());
         merge(intTemp);
 
         while(Third_list.good()) {
             getline(Third_list, WordTemp, ',');
-            intTemp = stoi(WordTemp);
+            intTemp = atoi(WordTemp.c_str());
             push_back1(intTemp);
         }
-        */
+
     }
 
 
